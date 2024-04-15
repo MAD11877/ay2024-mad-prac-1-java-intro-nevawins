@@ -11,6 +11,8 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-    
+    int userint = in.nextInt();
+    int squared = userint * userint ;
+    System.out.println(squared);
   }
 }
