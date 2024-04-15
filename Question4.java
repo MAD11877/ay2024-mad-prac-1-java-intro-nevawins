@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Question4
+public class Main
 {
   public static void main(String[] args)
   {
@@ -16,8 +16,23 @@ public class Question4
      * 
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
-     
+
     Scanner in = new Scanner(System.in);
+    int userint = in.nextInt();
+
+   
+    for (int i = userint; i > 0; i--){
+
+        for (int j = i; j > 0; j--){
+          
+          System.out.print("*");
+          
+        }
+        System.out.println();
+      
+    
+      
+    } 
     
   }
 }
